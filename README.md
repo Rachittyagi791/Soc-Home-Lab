@@ -8,7 +8,7 @@ This lab was built to go beyond SOC theory and actually experience the full work
 
 ## Architecture
 
-![Architecture Diagram](screenshots/architecture-diagram.png)
+![Architecture Diagram]
 
 | Role | OS | Purpose |
 |---|---|---|
@@ -98,7 +98,8 @@ index=* sourcetype=WinEventLog:Security EventCode=4625
 
 Failed-login events appeared immediately, confirming the full chain: attack on Kali → auth failure on Windows → logged locally → forwarded → indexed → searchable.
 
-![Event 4625 Search Results](screenshots/event-4625-search.png)
+![Event 4625 Search Results](<img width="1711" height="737" alt="Screenshot 2026-09-27 010812" src="https://github.com/user-attachments/assets/43d547dc-2cf5-4484-9a61-075b32300f7b" />
+)
 
 ## Detection Engineering
 
